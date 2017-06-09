@@ -1,0 +1,7 @@
+
+=== SYSTEM INTIALIZE ===
+
+<Add some text here>
+<Seriously, do it mate>
+
+=== INITALIZE END ===

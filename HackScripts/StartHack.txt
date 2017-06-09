@@ -1,0 +1,41 @@
+config playerComp EmptyPC 0.2 $#%#$
+delay 2 $#%#$
+openPort 22 $#%#$
+writel_silent ____________________________$#%#$
+writel_silent$#%#$
+writel_silent WARNING - SSH PORT CRACKED  $#%#$
+writel_silent ACCESS TO TERMINAL GRANTED  $#%#$
+writel_silent ____________________________$#%#$
+delay 2$#%#$
+connect $#%#$
+delay 5 $#%#$
+clearTerminal $#%#$
+delay 2 $#%#$
+writel_silent Hey sorry for the scare.$#%#$
+delay 0.5 $#%#$
+writel_silent I just noticed you didn't reply yet.$#%#$
+delay 0.5 $#%#$
+writel_silent Everything okay here?$#%#$
+delay 5$#%#$
+writel_silent $#%#$
+writel_silent I'll just check, if you don't mind.$#%#$
+delay 10$#%#$
+writel_silent $#%#$
+writel_silent Ah... interesting.$#%#$
+writel_silent I've never seen this x-server before, it's so bare bones....$#%#$
+delay 3$#%#$
+writel_silent Hold on, I'll give you a proper one I picked up.$#%#$
+writel_silent It's not the best, but, you'll learn to deal with it.$#%#$
+delay 5$#%#$
+writel_silent$#%#$
+writel_silent$#%#$
+writel_silent$#%#$
+delay 1$#%#$
+writel_silent Check this server:$#%#$
+writel_silent It's pretty weak in terms of security, so break in and take it$#%#$
+writel_silent IP: 356.576.888.259$#%#$
+writel_silent$#%#$
+writel_silent Remember to reboot once you got it.$#%#$
+writel_silent $#%#$
+writel_silent == [[ DISCONNECTED ]] ==$#%#$
+disconnect$#%#$

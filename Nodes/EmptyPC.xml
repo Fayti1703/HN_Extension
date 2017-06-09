@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Computer id="EmptyPC" name="Empty Server" type="empty" icon="DLCServer" security="0" allowsDefaultBootModule="true">
+	<adminPass pass="NOTEMPTY"/>
+	<proxy time="2" />
+	<portsForCrack val="255" />
+	<CustomConnectDisplayDaemon />
+	<firewall level="17" solution="PASS_IS_NOTEMPTY" additionalTime="-1" />
+	<trace time="-1" />
+	<admin type="none" />
+	<ports>22,3659</ports>
+	<portRemap>22=65356</portRemap>
+	<file path="home" name="READ.txt">This server is public for anyone who needs/wants to hide their IP and should be pretty secure, so as long as no script kiddie looks at the firewall password (which they tend not to do), this could in theory last until the end of the &apos;net. So have fun with it while it lasts.</file>
+	<file path="sys" name="RAMCleanup.sys">#BINARY#</file>
+	<file path="bin" name="Clock.exe">
+&gt;Thinking this is an actual clock
+&gt;It's like you don't even tick tock
+	</file>
+	<Memory>
+		<Commands>
+			<Command>printf &quot;%s\n&quot; &quot;$IP&quot;
+#GIBSON_IP#		</Command>
+			<Command>cd /log</Command>
+			<Command>rm *</Command>
+		</Commands>
+		<Data>
+			<Block>Loaded Extensions:
+RAMCleaner @ 0x0F1CF2
+			</Block>
+			<Block>0x0F1CF2
+#BINARYSMALL#
+			</Block>
+		</Data>
+		<Images>
+		</Images>
+	</Memory>
+	<eosDevice name="Empty ePhone BrokeS" id="emptyPhone" icon="ePhone" empty="false">
+		<note>TODO
+- Check out the $IP
+- Buy cats
+- RELEASE THE FELINES
+		</note>
+		<mail username="empty@empty.smtp" pass="trustno1" />
+		<file path="eos/system" name="eOSJailBreaker.sys">#BINARY#</file>
+	</eosDevice>
+</Computer>

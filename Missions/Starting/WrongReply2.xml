@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+    <goal type="delay" time="30"/>
+  </goals> 
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Fayti1703 REPLY_BOT</sender>
+    <subject></subject>
+    <body>
+======================================
+ ERROR: INCORRECT CONFIRMATION KEY      
+======================================
+
+    </body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

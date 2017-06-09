@@ -1,0 +1,3 @@
+<Computer id="playerComp" name="#PLAYERNAME#'s Computer" type="empty" security="5">
+	<dlink target="playerOfflineStorage" />
+</Computer>

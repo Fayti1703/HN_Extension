@@ -1,0 +1,89 @@
+<Computer id="someServer" name="Very well hidden secret server for secrets and all"
+ ip="1337.101.130.1703"
+ type="empty"
+ security="4">
+	
+	<portsForCrack val="0"/>
+	<firewall level="7" solution="ENDLESS" additionalTime="1000.0"/>
+	<trace time="-1"/>
+	<admin type="fast" isSuper="true"/>
+	<ports>211, 22, 80, 25, 21, 1433, 104, 6881, 443, 192, 554, 9418, 3724, 3659</ports> 
+	<positionNear target="EmptyPC" position="6" total="8" extradistance="0"/>
+	<!-- TODO: Add ALL PortCrushers here, even those you're not supposed to get. Someone will become frustrated enough to look in here and try to grab em. -->
+	<!-- Or, you know, maybe not. I'll have to think of something-->
+	<!-- IDEA: THEMEZ MEMEZ -->
+	<file path="home" name="SECRET_COMMANDS">
+	
+save!(SJN!*SNL8vAewew57WewJdwl89(*4;;;&amp;!)&#64;&amp;(ak'^&amp;#&#64;J3KH&#64;!* - Saves session
+	
+FirstTimeInitdswhupwnemfdsiuoewnmdsmffdjsklanfeebfjkalnbmsdakj - Causes init
+	</file>
+	<file path="bin" name="TraceMe.exe">#SECURITYTRACER_PROGRAM#</file>
+	<file path="bin" name="ePhoneScanner.exe">#EOS_SCANNER_EXE#</file>
+	<file path="bin/Memory" name="Generator.exe">#MEM_DUMP_GENERATOR#</file>
+	<file path="bin/Memory" name="Analyzer.exe">#MEM_FORENSICS_EXE#</file>
+	<file path="bin/DEC" name="Head.exe">#DECHEAD_PROGRAM#</file>
+	<file path="bin/DEC" name="Cypher.exe">#DECYPHER_PROGRAM#</file>
+	<file path="bin/ports" name="todo">SOMETHING HERE PLOX</file>
+	<customthemefile path="sys" name="Test_x-server.sys" themePath="DLC/Themes/MiamiThemeLightBlue.xml" />
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+	<IRCDaemon needsLogin="false">
+		<user name="admin" color="209,50,50"/>
+		<post user="admin">IF YOU ARE SEEING THIS, THINGS ARE WORSE THAN YOU CAN POSSIBLY IMAGINE FOR YOU RIGHT NOW</post>
+	</IRCDaemon>
+</Computer>
