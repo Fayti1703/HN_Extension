@@ -1,16 +1,9 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="startingMission" activeCheck="false">
-  <goals>
-  </goals> 
-  <nextMission IsSilent="true">Missions/Starting/WrongReply2.xml</nextMission>
-  <email>
-    <sender>ERROR BOT</sender>
-    <subject>ERROR</subject>
-    <body>
-ERROR: SILENT MISSION SENT EMAIL SEND HELP
-    </body>
-    <attachments>
-      <!-- Add attachments like links and notes here -->
-    </attachments>
-  </email>
+	<goals>
+	</goals>
+	<nextMission IsSilent="true">Missions/Starting/WrongReply2.xml</nextMission>
+	<email>
+		<sender></sender><subject>ERROR</subject><body> </body><attachments></attachments>
+	</email>
 </mission>
