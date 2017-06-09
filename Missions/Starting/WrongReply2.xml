@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="startingMission" activeCheck="true">
   <goals>
-    <goal type="getstring" target="TestingLOL">
+    <goal type="getstring" target="TestingLOL" />
   </goals> 
   <nextMission>Missions/Starting/CorrectReply.xml</nextMission>
   <!-- 
