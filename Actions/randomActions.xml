@@ -1,6 +1,6 @@
 <ConditionalActions>
 	<OnConnect target="someServer" needsMissionDone="false" requiredFlags="">
-<!--		<LaunchHackScript Filepath="HackScripts/random.hs" DelayHost="someServer" Delay="2" SourceComp="EmptyRelay" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>-->
+<!--		<LaunchHackScript Filepath="HackScripts/random" DelayHost="someServer" Delay="2" SourceComp="EmptyRelay" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>-->
 <!--		 -ON RELEASE- UNCOMMENT ABOVE -->
 	</OnConnect>
 	<OnDisconnect target="someServer">
