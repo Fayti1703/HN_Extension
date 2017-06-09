@@ -1,0 +1,14 @@
+
+<ConditionalActions>
+  
+  <Instantly>
+    <!--<RunFunction FunctionName="setFaction:NQQN" />-->
+    <RunFunction FunctionName="setHubServer:someServer" />
+    <HideNode TargetComp="jmail" />
+    <!--<CrashComputer TargetComp="jmail" CrashSource="someServer" DelayHost="someServer" Delay="-1" />-->
+    <ChangeAlertIcon Target="nqqnirc" Type="irchub" />
+    <!--<AddConditionalActions Filepath="Actions/NQQNIrcConditional.xml" />-->
+  </Instantly>
+
+</ConditionalActions>
+

@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+    <goal type="getstring" target="TestingLOL" />
+  </goals> 
+  <nextMission>Missions/Starting/CorrectReply.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <branchMissions>
+  	<branch>Missions/Starting/WrongReply1.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Fayti1703 REPLY-BOT</sender>
+    <subject></subject>
+    <body>
+======================================
+ ERROR: INCORRECT CONFIRMATION KEY      
+======================================
+
+Please reply with the confirmation key supplied in the original email, without quotes.
+Do note this script is case-sensitive.
+    </body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>
