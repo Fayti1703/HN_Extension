@@ -9,13 +9,8 @@
   	<branch>Missions/Starting/WrongReply1.xml</branch>
   </branchMissions>
   <email>
-    <sender>NAME HERE</sender>
-    <subject>NOPE</subject>
-    <body>THERE'S BUG! QUICK HELP ME THERE'S A BUG!
-Aka, you should not see this.
-So report on the Workshop page/Hacknet_Extensions Discord/Hacknet_Veterans Discord (if you're on there) and pretend you didn't see this.
-User name's Fayti1703. Use autocomplete.
-    </body>
-    <attachments> </attachments>
+    <sender>Fayti1703</sender>
+    <!-- Empty mail -->
+    <subject></subject><body></body><attachments> </attachments>
   </email>
 </mission>
