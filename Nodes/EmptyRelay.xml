@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Computer id="EmptyPC" name="Empty Server" type="empty" icon="DLCServer" security="0" allowsDefaultBootModule="true">
+<Computer id="EmptyRelay" name="Empty's Relay" type="empty" icon="DLCServer" security="0" allowsDefaultBootModule="true" ip="relay.empty.com">
 	<adminPass pass="NOTEMPTY"/>
 	<proxy time="2" />
 	<portsForCrack val="255" />
@@ -33,13 +33,13 @@ RAMCleaner @ 0x0F1CF2
 		<Images>
 		</Images>
 	</Memory>
-	<eosDevice name="Empty ePhone BrokeS" id="emptyPhone" icon="ePhone" empty="false">
+	<eosDevice name="Empty's ePhone 0x4e4f5045-S" id="emptyPhone" icon="ePhone" empty="true">
 		<note>TODO
 - Check out the $IP
 - Buy cats
 - RELEASE THE FELINES
 		</note>
-		<mail username="empty@empty.smtp" pass="trustno1" />
+		<mail username="empty@smtp.empty.com" pass="trustnothing" />
 		<file path="eos/system" name="eOSJailBreaker.sys">#BINARY#</file>
 	</eosDevice>
 </Computer>
