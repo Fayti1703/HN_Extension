@@ -1,4 +1,4 @@
-<mission id="StartingMission2" activeCheck="false" shouldIgnoreSenderVerification="false">
+<mission id="StartingMission2" activeCheck="false" shouldIgnoreSenderVerification="true">
 	<goals>
 		<goal type="getstring" target="TestingLOL"/>
 	</goals>
@@ -8,8 +8,8 @@
   		<branch>Missions/Starting/WrongReply1.xml</branch>
   	</branchMissions>
   	<email>
-    <sender>Fayti1703</sender>
-    <!-- Empty mail -->
-    <subject></subject><body></body><attachments> </attachments>
+		<sender>Fayti1703</sender>
+		<!-- Empty mail -->
+		<subject></subject><body></body><attachments> </attachments>
 	</email>
 </mission>

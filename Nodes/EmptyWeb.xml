@@ -1,0 +1,3 @@
+<Computer id="EmptyWeb" ip="www.empty.com" type="empty">
+	<addWebServer name="Empty Web Server" url="Web/empty.html" />
+</Computer>

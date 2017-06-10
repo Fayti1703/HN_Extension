@@ -2,7 +2,7 @@
  ip="1337.101.130.1703"
  type="empty"
  security="4">
-	
+	<FastActionHost />	
 	<portsForCrack val="0"/>
 	<firewall level="7" solution="ENDLESS" additionalTime="1000.0"/>
 	<trace time="-1"/>
@@ -25,65 +25,8 @@ FirstTimeInitdswhupwnemfdsiuoewnmdsmffdjsklanfeebfjkalnbmsdakj - Causes init
 	<file path="bin/DEC" name="Head.exe">#DECHEAD_PROGRAM#</file>
 	<file path="bin/DEC" name="Cypher.exe">#DECYPHER_PROGRAM#</file>
 	<file path="bin/ports" name="todo">SOMETHING HERE PLOX</file>
-	<customthemefile path="sys" name="Test_x-server.sys" themePath="DLC/Themes/MiamiThemeLightBlue.xml" />
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-
-
-
-
-
-
-
-
-	<IRCDaemon needsLogin="false">
-		<user name="admin" color="209,50,50"/>
-		<post user="admin">IF YOU ARE SEEING THIS, THINGS ARE WORSE THAN YOU CAN POSSIBLY IMAGINE FOR YOU RIGHT NOW</post>
-	</IRCDaemon>
+	<LogoDaemon Name="Secrets">
+	Initalizing
+	BackTrace
+	</LogoDaemon>
 </Computer>

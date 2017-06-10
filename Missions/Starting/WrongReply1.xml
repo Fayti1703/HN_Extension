@@ -1,9 +1,9 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="startingMission" activeCheck="false">
+<mission id="startingMission" activeCheck="false" shouldIgnoreSenderVerification="true">
 	<goals>
 	</goals>
 	<nextMission IsSilent="true">Missions/Starting/WrongReply2.xml</nextMission>
 	<email>
-		<sender></sender><subject>ERROR</subject><body> </body><attachments></attachments>
+		<sender></sender><subject></subject><body> </body><attachments></attachments>
 	</email>
 </mission>
