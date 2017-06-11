@@ -1,0 +1,4 @@
+<Computer id="DelayHost">
+	<FastActionHost />
+	<admin isSuper="true" type="fast"/>
+</Computer>

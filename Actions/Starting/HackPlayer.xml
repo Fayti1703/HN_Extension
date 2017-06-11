@@ -1,6 +1,6 @@
 <ConditionalActions>
 	<Instantly>
 		<AddConditionalActions Filepath="Actions/randomActions.xml" />
-		<LaunchHackScript Filepath="HackScripts/StartHack" Delay="1" TargetComp="playerComp" SourceComp="EmptyRelay" DelayHost="someServer" /> 
+		<LaunchHackScript Filepath="HackScripts/StartHack" Delay="1" TargetComp="playerComp" SourceComp="EmptyRelay" DelayHost="DelayHost" /> 
 	</Instantly>
 </ConditionalActions>
