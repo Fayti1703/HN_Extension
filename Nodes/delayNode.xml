@@ -1,4 +1,4 @@
-<Computer id="DelayHost">
+<Computer id="DelayHost" name="Delay Host">
 	<FastActionHost />
 	<admin isSuper="true" type="fast"/>
 </Computer>

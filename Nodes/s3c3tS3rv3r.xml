@@ -19,12 +19,12 @@ FirstTimeInitdswhupwnemfdsiuoewnmdsmffdjsklanfeebfjkalnbmsdakj - Causes init
 	</file>
 	<file path="bin" name="TraceMe.exe">#SECURITYTRACER_PROGRAM#</file>
 	<file path="bin" name="ePhoneScanner.exe">#EOS_SCANNER_EXE#</file>
+	<file path="bin" name="ThemeChange.exe">#THEMECHANGER_EXE#</file>
 	<file path="bin/Memory" name="Generator.exe">#MEM_DUMP_GENERATOR#</file>
 	<file path="bin/Memory" name="Analyzer.exe">#MEM_FORENSICS_EXE#</file>
 	<file path="bin/DEC" name="Head.exe">#DECHEAD_PROGRAM#</file>
 	<file path="bin/DEC" name="Cypher.exe">#DECYPHER_PROGRAM#</file>
 	<file path="bin/ports" name="todo">SOMETHING HERE PLOX</file>
-	<LogoDaemon>
-	</LogoDaemon>
-	<dlink id="DelayHost" />
+	<customthemefile path="sys" name="x-server.sys" themePath="Themes/CoelTheme.xml" />
+	<LogoDaemon />
 </Computer>
