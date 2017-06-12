@@ -24,18 +24,17 @@ writel $#%#$
 writel Ah... interesting.$#%#$
 writel I've never seen this x-server before, it's so bare bones....$#%#$
 delay 3$#%#$
-writel Hold on, I'll give you a proper one I picked up.$#%#$
-writel It's not the best, but, you'll learn to deal with it.$#%#$
+writel Hold on, I'll give you a proper one.$#%#$
 delay 5$#%#$
 writel$#%#$
-writel$#%#$
-writel$#%#$
-delay 1$#%#$
 writel Check this server:$#%#$
+delay 0.5$#%#$
 writel It's pretty weak in terms of security, so break in and take it$#%#$
+delay 1$#%#$
 writel IP: 356.576.888.259$#%#$
+delay 0.5$#%#$
 writel$#%#$
 writel Remember to reboot once you got it.$#%#$
 writel $#%#$
-writel == [[ DISCONNECTED ]] ==$#%#$
+writel_silent == [[ DISCONNECTED ]] ==$#%#$
 disconnect$#%#$
