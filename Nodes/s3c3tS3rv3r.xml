@@ -26,5 +26,7 @@ FirstTimeInitdswhupwnemfdsiuoewnmdsmffdjsklanfeebfjkalnbmsdakj - Causes init
 	<file path="bin/DEC" name="Cypher.exe">#DECYPHER_PROGRAM#</file>
 	<file path="bin/ports" name="todo">SOMETHING HERE PLOX</file>
 	<customthemefile path="sys" name="x-server.sys" themePath="Themes/CoelTheme.xml" />
-	<LogoDaemon />
+	<LogoDaemon TextColor="204,29,29">
+Debugging in process...
+	</LogoDaemon>
 </Computer>
