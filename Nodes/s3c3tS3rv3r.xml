@@ -7,7 +7,7 @@
 	<trace time="-1"/>
 	<admin type="fast" isSuper="true"/>
 	<ports>211, 22, 80, 25, 21, 1433, 104, 6881, 443, 192, 554, 9418, 3724, 3659</ports> 
-	<positionNear target="EmptyRelay" position="6" total="8" extradistance="0"/>
+	<!-- <positionNear target="emptyRelay" position="6" total="8" extradistance="0"/> -->
 	<!-- TODO: Add ALL PortCrushers here, even those you're not supposed to get. Someone will become frustrated enough to look in here and try to grab em. -->
 	<!-- Or, you know, maybe not. I'll have to think of something-->
 	<!-- IDEA: THEMEZ MEMEZ -->

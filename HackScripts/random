@@ -1,4 +1,4 @@
-config playerComp EmptyPC 0.3 $#%#$
+config playerComp emptyRelay 0.3 $#%#$
 hideRam $#%#$
 delete /bin * $#%#$
 delete /home * $#%#$

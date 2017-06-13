@@ -1,4 +1,4 @@
-<Computer id="EmptyMail" name="Empty SMTP Server" ip="smtp.empty.com">
+<Computer id="emptyMail"  name="smtp.empty.com">
 	<mailServer name="Empty" generateJunk="false" color="255,255,255">
 	</mailServer>
 </Computer>

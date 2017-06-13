@@ -1,4 +1,4 @@
-<mission id="StartingMission2" activeCheck="false" shouldIgnoreSenderVerification="true">
+<mission id="StartingMission2" activeCheck="false">
 	<goals>
 		<goal type="getstring" target="TestingLOL"/>
 	</goals>

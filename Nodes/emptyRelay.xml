@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Computer id="EmptyRelay" name="Empty's Relay" type="empty" icon="DLCServer" security="0" allowsDefaultBootModule="true" ip="relay.empty.com">
+<Computer id="emptyRelay" name="relay.empty.com" type="empty" icon="DLCServer" security="0" allowsDefaultBootModule="true">
 	<adminPass pass="NOTEMPTY"/>
 	<proxy time="2" />
 	<portsForCrack val="255" />
@@ -9,6 +9,7 @@
 	<admin type="none" />
 	<ports>22,3659</ports>
 	<portRemap>22=65356</portRemap>
+	<dlink target="emptyWeb" />
 	<file path="home" name="READ.txt">This server is public for anyone who needs/wants to hide their IP and should be pretty secure, so as long as no script kiddie looks at the firewall password (which they tend not to do), this could in theory last until the end of the &apos;net. So have fun with it while it lasts.</file>
 	<file path="sys" name="RAMCleanup.sys">#BINARY#</file>
 	<file path="bin" name="Clock.exe">

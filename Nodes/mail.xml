@@ -1,6 +1,6 @@
 <Computer id="jmail">
 	<account username="#PLAYERNAME#" password="reptilious" type="mail" />
 	<account username="Fayti1703" password="unicode-table.com" type="mail" />
-	<mailServer name="Mail Server">
+	<mailServer name="Mail Server" generateJunk="true">
 	</mailServer>
 </Computer>

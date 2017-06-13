@@ -8,11 +8,11 @@
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
   <branchMissions>
-  	<branch>Missions/Starting/WrongReply1.xml</branch>
+  	<branch>Missions/Starting/WrongReplyLoop.xml</branch>
   </branchMissions>
   <email>
     <sender>Fayti1703 REPLY-BOT</sender>
-    <subject></subject>
+    <subject>Error</subject>
     <body>
 ======================================
  ERROR: INCORRECT CONFIRMATION KEY      

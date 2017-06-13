@@ -1,4 +1,4 @@
-config playerComp EmptyRelay 0.2 $#%#$
+config playerComp emptyRelay 0.2 $#%#$
 delay 2 $#%#$
 connect $#%#$
 delay 5 $#%#$
