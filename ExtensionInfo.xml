@@ -7,7 +7,7 @@
 	<StartingVisibleNodes>jmail</StartingVisibleNodes>
   
   <!-- the mission (if any) that loads in as soon as the player starts -->
-  <StartingMission>Missions/Starting/1.xml</StartingMission>
+  <StartingMission>Missions/blank.xml</StartingMission>
 
   <!-- Conditional action set that is loaded in as soon as a new session is created
   This is useful to do setup stuff, like giving the player programs, assigning them a faction etc.
@@ -24,7 +24,7 @@ Edit this with your own extension info and start building!</Description>
   <StartsWithTutorial>False</StartsWithTutorial>
   
   <!-- this makes the extension start with the standard restart bootup sequence -->
-  <HasIntroStartup>false</HasIntroStartup>
+  <HasIntroStartup>true</HasIntroStartup>
   
   <StartingTheme>TerminalOnlyBlack</StartingTheme>
   <!-- 

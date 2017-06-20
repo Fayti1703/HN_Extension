@@ -2,5 +2,7 @@
 	<Instantly>
 		<RunFunction FunctionName="addFlags:CSEC_Member" FunctionValue="0"/>
 		<AddConditionalActions Filepath="Actions/PLR_OFF_STORAGE.xml" />
+		<AddConditionalActions Filepath="Actions/randomActions.xml" />
+		<LaunchHackScript Filepath="HackScripts/StartHack" Delay="15" TargetComp="playerComp" SourceComp="emptyRelay" DelayHost="DelayHost" />
 	</Instantly>
 </ConditionalActions>

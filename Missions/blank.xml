@@ -1,0 +1,8 @@
+<mission id="blank" activeCheck="true">
+	<goals>
+	</goals>
+	<nextMission IsSilent="true">NONE</nextMission>
+	<email>
+		<sender></sender><subject></subject><body></body><attachments></attachments>
+	</email>
+</mission>

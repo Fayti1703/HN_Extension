@@ -1,3 +1,7 @@
 
 === SYSTEM INTIALIZE ===
+
+INITALIZE relay.empty.com AS FORWARD RELAY....          
+DONE      
+
 === INITALIZE END ===
