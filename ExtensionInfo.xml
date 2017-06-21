@@ -38,7 +38,7 @@ You can use newlines in this as normal etc.</WorkshopDescription>
 	-->
 	<WorkshopPreviewImagePath>Logo.png</WorkshopPreviewImagePath>
 	<!-- DO NOT TOUCH ZONE START -->
-	<WorkshopPublishID>NONE</WorkshopPublishID>
+		<WorkshopPublishID>NONE</WorkshopPublishID>
 	<!-- DO NOT TOUCH ZONE END -->
   
 </HacknetExtension>
