@@ -1,4 +1,17 @@
 <Computer id="emptyMail"  name="smtp.empty.com">
+	<account username="empty" password="trustnothing" type="mail" />
 	<mailServer name="Empty" generateJunk="false" color="255,255,255">
+		<email recipient="empty" sender="empty@smtp.empty.com" subject="Trust Nothing">
+================
+ TRUST NOTHING
+================
+
+Don't trust anything. Not your PC. Not your Server. Not your Phone. Don't trust anything with your data.
+Trust nothing.
+Not even the AI your ship is running on.
+Not even that.
+
+- .-. ..- ... - / -. --- - .... .. -. --.
+		</email>
 	</mailServer>
 </Computer>

@@ -1,3 +1,4 @@
 <Computer id="ispComp" security="0" name="Temporary ISP Managing Node">
-	<ispSystem />
+	<proxy time="0" />
+	<dlink target="ispBackend" />
 <Computer/>

@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Computer id="emptyRelay" name="relay.empty.com" type="empty" icon="DLCServer" security="0" allowsDefaultBootModule="true">
-	<adminPass pass="NOTEMPTY"/>
+	<adminPass pass="incorrect"/>
 	<proxy time="2" />
 	<portsForCrack val="255" />
 	<CustomConnectDisplayDaemon />
-	<firewall level="17" solution="PASS_IS_NOTEMPTY" additionalTime="-1" />
+	<firewall  solution="THEPASSWORDISINCORRECT" additionalTime="-1" />
 	<trace time="-1" />
 	<admin type="none" />
 	<ports>22,3659</ports>
 	<portRemap>22=65356</portRemap>
-	<dlink target="emptyWeb" />
-	<file path="home" name="READ.txt">This server is public for anyone who needs/wants to hide their IP and should be pretty secure, so as long as no script kiddie looks at the firewall password (which they tend not to do), this could in theory last until the end of the &apos;net. So have fun with it while it lasts.</file>
-	<file path="sys" name="RAMCleanup.sys">#BINARY#</file>
-	<file path="bin" name="Clock.exe">
+	<file path="home" name="READ.txt">This server is public for anyone who needs/wants to hide their IP and should be secure enough for pretty much anything. Have fun with it, everyone.</file>
+	<file path="sys" name="RAMCLEAN.SYS">00000011 01010111This program CAN be run in DOS mode.#BINARY#</file>
+	<encryptedFile path="bin" name="Clock.dec" extension=".exe" ip="@C#7298" header="Tick tock" pass="">
 &gt;Thinking this is an actual clock
 &gt;It's like you don't even tick tock
-	</file>
+	</encryptedFile>
 	<Memory>
 		<Commands>
 			<Command>printf &quot;%s\n&quot; &quot;$IP&quot;

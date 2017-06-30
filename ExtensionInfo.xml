@@ -18,7 +18,7 @@ Report issues on github.com/Fayti1703/HN_Extension.</Description>
 	HN_PATH/Content/Music
 	HN_PATH/Content/DLC/Music -->
 	<IntroStartupSong>The_Quickening</IntroStartupSong>
-	<!-- Sequencer. For later. May need.
+	<!-- Sequencer. For later. May need. --><!--
 	<SequencerTargetID>advExamplePC</SequencerTargetID>
 	<SequencerSpinUpTime>10.5</SequencerSpinUpTime>
 	<SequencerFlagRequiredForStart>testFlag</SequencerFlagRequiredForStart>

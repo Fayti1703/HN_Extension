@@ -1,4 +1,5 @@
-<mission id="blank" activeCheck="true">
+<mission id="blank" activeCheck="false">
+	<!-- Intentionally un-completeable, do not set activeCheck to true -->
 	<goals>
 	</goals>
 	<nextMission IsSilent="true">NONE</nextMission>

@@ -1,7 +1,7 @@
 
 === SYSTEM INTIALIZE ===
 
-INITALIZE relay.empty.com AS FORWARD RELAY....          
-DONE      
+INITALIZE relay.empty.com AS FORWARD RELAY....          [FAIL]     
+SERVER REPORTED 403 ERROR
 
 === INITALIZE END ===
