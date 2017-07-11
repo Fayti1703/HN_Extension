@@ -1,4 +1,5 @@
-<Computer id="DelayHost" name="Delay Host">
+<Computer id="true" name="Delay Host">
+	<!-- ID is true for DelayHost stuff. Don't ask why. Just fun this way ᵉᶜᵏˢᵈᵉᵉ -->
 	<FastActionHost />
 	<admin isSuper="true" type="fast"/>
 </Computer>

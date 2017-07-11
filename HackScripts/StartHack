@@ -1,6 +1,7 @@
 config playerComp emptyRelay 0.2 $#%#$
 delay 2 $#%#$
-writel BACKTRACE COMPLETE$#%#$
+stopMusic $#%#$
+writel == [[ BACKTRACE COMPLETE ]] ==$#%#$
 delay 0.5 $#%#$
 connect $#%#$
 delay 5 $#%#$
@@ -15,14 +16,56 @@ delay 1 $#%#$
 write .$#%#$
 writel $#%#$
 delay 1 $#%#$
+openPort 21 $#%#$
+writel ____________________________$#%#$
+writel$#%#$
+writel WARNING - FTP PORT CRACKED  $#%#$
+writel ACCESS TO FILESYSTEM GRANTED$#%#$
+writel ____________________________$#%#$
+delay 10 $#%#$
+openPort 21 $#%#$
 writel ____________________________$#%#$
 writel$#%#$
 writel WARNING - SSH PORT CRACKED  $#%#$
 writel ACCESS TO TERMINAL GRANTED  $#%#$
 writel ____________________________$#%#$
-openPort 22 $#%#$
+writel $#%#$
+delay 3 $#%#$
+clearTerminal $#%#$
 delay 2 $#%#$
-writel_silent #clearTerminal $#%#$
+writel Hello. $#%#$
+delay 3.1 $#%#$
+writel Sorry about this. $#%#$
+delay 5 $#%#$
+writel I'm part of a group that was investigating some things... $#%#$
+delay 6 $#%#$
+writel That's why we put up a backtracer for any connection to empty's relay, $#%#$
+delay 4 $#%#$
+writel and why I just took a peek through your files. $#%#$
+delay 2.5 $#%#$
+writel So... yeah. Sorry. $#%#$
+delay 3 $#%#$
+writel I've removed the bot now, we're done. $#%#$
+delay 4.5 $#%#$
+writel I don't mean to, y'know, harm anyone new to this field or anything.$#%#$
+delay 4.5 $#%#$
+writel So. Yeah. I can give you a pointer though. $#%#$
+writel $#%#$
+delay 7.5 $#%#$
+writel Here. 356.576.888.259. Knock yourself out.$#%#$
+delay 6 $#%#$
+writel Also, take this address here: 25.68.9.73 $#%#$
+delay 3.5 $#%#$
+writel I'll write them to a file, hold on. $#%#$
+delay 5 $#%#$
+makeFile home NetEduArchives.txt NetEducation Archives: 25.68.9.73 $#%#$
+delay 5 $#%#$
+makeFile home BeginServer.txt Start here: 356.576.888.259 $#%#$
+delay 1 $#%#$
+writel There. $#%#$
+delay 1 $#%#$
+writel Goodbye. $#%#$
 writel $#%#$
 writel == [[ DISCONNECTED ]] ==$#%#$
-disconnect$#%#$
+startMusic $#%#$
+disconnect $#%#$

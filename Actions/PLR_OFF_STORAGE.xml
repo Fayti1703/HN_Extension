@@ -1,10 +1,6 @@
 <ConditionalActions>
-	<OnDisconnect target="playerComp">
-		<HideNode id="playerOfflineStorage"/>
-		<AddConditionalActions Filepath="Actions/PLR_OFF_STORAGE.xml" Delay="0.5" DelayHost="DelayHost"/>
-	</OnDisconnect>
 	<OnDisconnect target="playerOfflineStorage">
-		<HideHide id="playerOfflineStorage" />
-		<AddConditionalActions Filepath="Actions/PLR_OFF_STORAGE.xml" Delay="0.5" DelayHost="DelayHost"/>
+		<HideHide id="playerOfflineStorage" Delay="0.5" DelayHost="true" />
+		<AddConditionalActions Filepath="Actions/PLR_OFF_STORAGE.xml" Delay="1" DelayHost="true"/>
 	</OnDisconnect>
 </ConditionalActions>

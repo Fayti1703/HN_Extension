@@ -2,7 +2,6 @@
 	<goals>
 		<goal type="getstring" target="TestingLOL"/>
 	</goals>
-	<missionStart>loadConditionalActions:Actions/Starting/HackPlayer.xml</missionStart>
 	<nextMission IsSilent="true">Missions/Starting/CorrectReply.xml</nextMission>
   	<branchMissions>
   		<branch>Missions/Starting/WrongReply1.xml</branch>

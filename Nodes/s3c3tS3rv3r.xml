@@ -4,6 +4,7 @@
  security="4">
 	<portsForCrack val="0"/>
 	<firewall solution="THISBEFORETHELASTMILLENIUM" additionalTime="1000.0"/>
+	<!-- Yes. -->
 	<trace time="-1"/>
 	<admin type="fast" isSuper="true"/>
 	<ports>211, 22, 80, 25, 21, 1433, 104, 6881, 443, 192, 554, 9418, 3724, 3659</ports> 
@@ -13,13 +14,15 @@
 	<!-- IDEA: THEMEZ MEMEZ -->
 	<file path="home" name="SECRET_COMMANDS">
 	
-save!(SJN!*SNL8vAewew57WewJdwl89(*4;;;&amp;!)&#64;&amp;(ak'^&amp;#&#64;J3KH&#64;!* - Saves session
+save!(SJN!*SNL8vAewew57WewJdwl89(*4;;;&amp;!)@&amp;(ak'^&amp;#@J3KH@!* - Saves session
+
 	
 FirstTimeInitdswhupwnemfdsiuoewnmdsmffdjsklanfeebfjkalnbmsdakj - Causes init
 	</file>
 	<file path="bin" name="TraceMeDaddy.exe">#SECURITYTRACER_PROGRAM#</file>
 	<file path="bin" name="ePhoneScanner.exe">#EOS_SCANNER_EXE#</file>
 	<file path="bin" name="ThemeChange.exe">#THEMECHANGER_EXE#</file>
+	<file path="bin" name="BloodMusic.exe">#DLC_MUSIC_EXE#</file>
 	<file path="bin/Memory" name="Generator.exe">#MEM_DUMP_GENERATOR#</file>
 	<file path="bin/Memory" name="Analyzer.exe">#MEM_FORENSICS_EXE#</file>
 	<file path="bin/DEC" name="Head.exe">#DECHEAD_PROGRAM#</file>

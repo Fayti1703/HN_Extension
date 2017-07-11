@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Computer id="emptyRelay" name="relay.empty.com" type="empty" icon="DLCServer" security="0" allowsDefaultBootModule="true">
-	<adminPass pass="incorrect"/>
+	<adminPass pass="Login Failed"/>
 	<proxy time="2" />
 	<portsForCrack val="255" />
 	<CustomConnectDisplayDaemon />
-	<firewall  solution="THEPASSWORDISINCORRECT" additionalTime="-1" />
+	<firewall  solution="thePasswordIsLoginFailed" additionalTime="-1" />
 	<trace time="-1" />
 	<admin type="none" />
 	<ports>22,3659</ports>
 	<portRemap>22=65356</portRemap>
 	<file path="home" name="READ.txt">This server is public for anyone who needs/wants to hide their IP and should be secure enough for pretty much anything. Have fun with it, everyone.</file>
-	<file path="sys" name="RAMCLEAN.SYS">00000011 01010111This program CAN be run in DOS mode.#BINARY#</file>
+	<file path="sys" name="RAMCLEAN.SYS">00000011 01010111This program cannot be run in non-DOS mode.#BINARY#</file>
 	<encryptedFile path="bin" name="Clock.dec" extension=".exe" ip="@C#7298" header="Tick tock" pass="">
 &gt;Thinking this is an actual clock
 &gt;It's like you don't even tick tock
