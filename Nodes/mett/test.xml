@@ -2,5 +2,7 @@
 <!--    <ports>22</ports>
 	<portsForCrack val="0"/> -->
 	<file path="sys" name="x-server.sys">#BASE_THEME#</file>
+<!--	This is a testing machine, but mett has been a little... careless
+	and left a constant connection to his share drive on it. -->
 	<dlink target="mett-share" />
 </Computer>
