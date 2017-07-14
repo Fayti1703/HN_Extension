@@ -3,7 +3,7 @@
 	<AllowSaves>true</AllowSaves>
   	<StartingVisibleNodes>jmail</StartingVisibleNodes>
   	<StartingMission>Missions/blank.xml</StartingMission>
-<!--	<StartingActions>Actions/Starting/Main.xml</StartingActions>-->
+	<StartingActions>Actions/Starting/Main.xml</StartingActions>
 	<Description> --- Fayti1703's Extension ---
 Needs name, description and content.
 Report issues on github.com/Fayti1703/HN_Extension.</Description>

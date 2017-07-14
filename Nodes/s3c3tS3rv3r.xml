@@ -12,6 +12,7 @@
 	<!-- TODO: Add ALL PortCrushers here, even those you're not supposed to get. Someone will become frustrated enough to look in here and try to grab em. -->
 	<!-- Or, you know, maybe not. I'll have to think of something-->
 	<!-- IDEA: THEMEZ MEMEZ -->
+	<!-- /home -->
 	<file path="home" name="SECRET_COMMANDS">
 	
 save!(SJN!*SNL8vAewew57WewJdwl89(*4;;;&amp;!)@&amp;(ak'^&amp;#@J3KH@!* - Saves session
@@ -19,15 +20,20 @@ save!(SJN!*SNL8vAewew57WewJdwl89(*4;;;&amp;!)@&amp;(ak'^&amp;#@J3KH@!* - Saves s
 	
 FirstTimeInitdswhupwnemfdsiuoewnmdsmffdjsklanfeebfjkalnbmsdakj - Causes init
 	</file>
+	<!-- /bin -->
 	<file path="bin" name="TraceMeDaddy.exe">#SECURITYTRACER_PROGRAM#</file>
 	<file path="bin" name="ePhoneScanner.exe">#EOS_SCANNER_EXE#</file>
 	<file path="bin" name="ThemeChange.exe">#THEMECHANGER_EXE#</file>
 	<file path="bin" name="BloodMusic.exe">#DLC_MUSIC_EXE#</file>
+	<!-- Memory -->
 	<file path="bin/Memory" name="Generator.exe">#MEM_DUMP_GENERATOR#</file>
 	<file path="bin/Memory" name="Analyzer.exe">#MEM_FORENSICS_EXE#</file>
+	<!-- DEC -->
 	<file path="bin/DEC" name="Head.exe">#DECHEAD_PROGRAM#</file>
 	<file path="bin/DEC" name="Cypher.exe">#DECYPHER_PROGRAM#</file>
+	<!-- ports -->
 	<file path="bin/ports" name="todo">SOMETHING HERE PLOX</file>
+	<!-- /sys -->
 	<customthemefile path="sys" name="x-server.sys" themePath="Themes/CoelTheme.xml" />
 	<LogoDaemon TextColor="240,29,29">
 Debugging in process...

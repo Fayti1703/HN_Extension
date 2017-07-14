@@ -1,10 +1,20 @@
 <ConditionalActions>
 	<Instantly>
+		<!-- Enable ETAS -->
 		<RunFunction FunctionName="addFlags:CSEC_Member" FunctionValue="0"/>
+		<!-- Add looping CAS files -->
 		<AddConditionalActions Filepath="Actions/PLR_OFF_STORAGE.xml" />
 		<AddConditionalActions Filepath="Actions/randomActions.xml" />
-		<SetLock DelayHost="true" Delay="20" Module="terminal" IsLocked="true" IsHidden="false" />
+		<!-- Lock and load -->
+		<SetLock DelayHost="true" Delay="20" Module="terminal" IsLocked="true" IsHidden="false" 	/>
+		<SetLock DelayHost="true" Delay="20" Module="netmap" IsLocked="true" IsHidden="false" 		/>
+		<SetLock DelayHost="true" Delay="20" Module= "ram" IsLocked="true" IsHidden="false" 		/>
+		<SetLock DelayHost="true" Delay="20" Module="display" IsLocked="false" IsHidden="true" 		/>
 		<LaunchHackScript Filepath="HackScripts/StartHack" Delay="15" TargetComp="playerComp" SourceComp="emptyRelay" DelayHost="true" />
-		<SetLock DelayHost="true" Delay="120" Module="terminal" IsLocked="false" IsHidden="false" />
+		<!-- Unload and unlock -->
+		<SetLock DelayHost="true" Delay="120" Module="terminal" IsLocked="false" IsHidden="false" 	/>
+		<SetLock DelayHost="true" Delay="120" Module="netmap" IsLocked="false" IsHidden="false" 	/>
+		<SetLock DelayHost="true" Delay="120" Module="ram" IsLocked="false" IsHidden="false" 		/>
+		<SetLock DelayHost="true" Delay="121" Module="display" IsLocked="false" IsHidden="false" 	/>
 	</Instantly>
 </ConditionalActions>

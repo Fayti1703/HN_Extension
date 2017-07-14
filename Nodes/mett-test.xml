@@ -1,6 +1,0 @@
-<Computer ip="356.576.888.259" security="0" allowsDefaultBootModule="false" id="mett-test" name="/dev/mett&apos;s Teststation">
-<!--    <ports>22</ports>
-	<portsForCrack val="0"/> -->
-	<file path="sys" name="x-server.sys">#BASE_THEME#</file>
-<!--	<CustomThemeFile path="sys" name="x-server.sys" themePath="Themes/CoelTheme.xml"/> -->
-</Computer>
