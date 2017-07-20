@@ -23,7 +23,7 @@ writel WARNING - FTP PORT CRACKED  $#%#$
 writel ACCESS TO FILESYSTEM GRANTED$#%#$
 writel ____________________________$#%#$
 delay 10 $#%#$
-openPort 21 $#%#$
+openPort 22 $#%#$
 writel ____________________________$#%#$
 writel$#%#$
 writel WARNING - SSH PORT CRACKED  $#%#$

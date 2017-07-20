@@ -8,7 +8,8 @@
 		<!-- Lock and load -->
 		<SetLock DelayHost="true" Delay="20" Module="terminal" IsLocked="true" IsHidden="false" 	/>
 		<SetLock DelayHost="true" Delay="20" Module="netmap" IsLocked="true" IsHidden="false" 		/>
-		<SetLock DelayHost="true" Delay="20" Module= "ram" IsLocked="true" IsHidden="false" 		/>
+		<!-- Apparently you can click buttons through a ram lock. Bullshit. -->
+		<SetLock DelayHost="true" Delay="20" Module= "ram" IsLocked="false" IsHidden="true" 		/>
 		<SetLock DelayHost="true" Delay="20" Module="display" IsLocked="false" IsHidden="true" 		/>
 		<LaunchHackScript Filepath="HackScripts/StartHack" Delay="15" TargetComp="playerComp" SourceComp="emptyRelay" DelayHost="true" />
 		<!-- Unload and unlock -->

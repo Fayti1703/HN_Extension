@@ -1,7 +1,16 @@
 <Computer id="emptyMail"  name="smtp.empty.com">
+	<!-- empty's primary mail account.  -->
+	<account username="root" password="averylongpasswordforasecuremailaccounthahaseriouslystopdontstealmydataplease:(" type="0" />
+	<!-- This is a "fake" account for catching anyone trying to get into empty's stuff.-->
 	<account username="empty" password="trustnothing" type="mail" />
 	<mailServer name="Empty" generateJunk="false" color="255,255,255">
-		<email recipient="empty" sender="empty@smtp.empty.com" subject="Trust Nothing">
+<!--		<email recipient="empty" sender="todo" subject="Registration Key">
+BODY TODO
+		</email>-->
+		<!-- The following email is supposed to be wierd and kinda non-sensical and paranoid.
+		He just wants you to have a "haha I broke into your shit you little paranoid rat" kinda feel.
+		A fake account a day keeps the hackers away :P-->
+		<email recipient="empty" sender="root@smtp.empty.com" subject="Trust Nothing">
 ================
  TRUST NOTHING
 ================
@@ -13,5 +22,8 @@ Not even that.
 
 - .-. ..- ... - / -. --- - .... .. -. --.
 		</email>
+<!--		<email recipient="todo" sender="root@smtp.empty.com" subject="Re:Registration Key">
+REPLY TODO
+		</email>-->
 	</mailServer>
 </Computer>
