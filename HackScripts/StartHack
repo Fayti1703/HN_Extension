@@ -20,14 +20,12 @@ openPort 21 $#%#$
 writel ____________________________$#%#$
 writel$#%#$
 writel WARNING - FTP PORT CRACKED  $#%#$
-writel ACCESS TO FILESYSTEM GRANTED$#%#$
 writel ____________________________$#%#$
 delay 10 $#%#$
 openPort 22 $#%#$
 writel ____________________________$#%#$
 writel$#%#$
 writel WARNING - SSH PORT CRACKED  $#%#$
-writel ACCESS TO TERMINAL GRANTED  $#%#$
 writel ____________________________$#%#$
 writel $#%#$
 delay 3 $#%#$
@@ -35,37 +33,37 @@ clearTerminal $#%#$
 delay 2 $#%#$
 writel Hello. $#%#$
 delay 3.1 $#%#$
-writel Sorry about this. $#%#$
+writel_silent Sorry about this. $#%#$
 delay 5 $#%#$
-writel I'm part of a group that was investigating some things... $#%#$
+writel_silent I'm part of a group that was investigating some things... $#%#$
 delay 6 $#%#$
-writel That's why we put up a backtracer for any connection to empty's relay, $#%#$
+writel_silent That's why we put up a backtracer for any connection to empty's relay, $#%#$
 delay 4 $#%#$
-writel and why I just took a peek through your files. $#%#$
+writel_silent and why I just took a peek through your files. $#%#$
 delay 2.5 $#%#$
-writel So... yeah. Sorry. $#%#$
+writel_silent So... yeah. Sorry. $#%#$
 delay 3 $#%#$
-writel I've removed the bot now, we're done. $#%#$
+writel_silent I've removed the bot now, we're done. $#%#$
 delay 4.5 $#%#$
-writel I don't mean to, y'know, harm anyone new to this field or anything.$#%#$
+writel_silent I don't mean to, y'know, harm anyone new to this field or anything.$#%#$
 delay 4.5 $#%#$
-writel So. Yeah. I can give you a pointer though. $#%#$
-writel $#%#$
+writel_silent So. Yeah. I can give you a pointer though. $#%#$
 delay 7.5 $#%#$
+writel_silent $#%#$
 writel Here. 356.576.888.259. Knock yourself out.$#%#$
 delay 6 $#%#$
-writel Also, take this address here: 25.68.9.73 $#%#$
+writel_silent Also, take this address here: 25.68.9.73 $#%#$
 delay 3.5 $#%#$
-writel I'll write them to a file, hold on. $#%#$
+writel_silent I'll write them to a file, hold on. $#%#$
 delay 5 $#%#$
 makeFile home NetEduArchives.txt NetEducation Archives: 25.68.9.73 $#%#$
 delay 5 $#%#$
 makeFile home BeginServer.txt Start here: 356.576.888.259 $#%#$
 delay 1 $#%#$
-writel There. $#%#$
+writel_silent There. $#%#$
 delay 1 $#%#$
-writel Goodbye. $#%#$
-writel $#%#$
+writel_silent Goodbye. $#%#$
+writel_silent $#%#$
 writel == [[ DISCONNECTED ]] ==$#%#$
 startMusic $#%#$
 disconnect $#%#$
