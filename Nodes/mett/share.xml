@@ -1,4 +1,4 @@
-<Computer id="mett-share" name="/dev/mett&apos;s Sharedrive" security="1" allowsDefaultBootModule="false">
+<Computer id="mettShare" name="/dev/mett&apos;s Sharedrive" security="1" allowsDefaultBootModule="false">
 <!--	This is mett's sharedrive, where he puts stuff he wants to have access across all of his machines on.
 	Or just things he wants to transfer from one machine to another. -->
 	<ports>21</ports>

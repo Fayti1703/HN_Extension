@@ -1,9 +1,9 @@
-<Computer id="mett-test" name="/dev/mett&apos;s Teststation" ip="356.576.888.259" security="0" allowsDefaultBootModule="false">
+<Computer id="mettTest" name="/dev/mett&apos;s Teststation" ip="356.576.888.259" security="0" allowsDefaultBootModule="false">
 <!--    <ports>22</ports>
 	<portsForCrack val="0"/> -->
 	<file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
 	<file path="sys" name="x-server.sys">#BASE_THEME#</file>
 <!--	This is a testing machine, but mett has been a little... careless
 	and left a constant connection to his share drive on it. -->
-	<dlink target="mett-share" />
+	<dlink target="mettShare" />
 </Computer>

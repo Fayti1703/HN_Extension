@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Computer id="emptyRelay" name="relay.empty.com" type="empty" icon="DLCServer" security="0" allowsDefaultBootModule="true">
-	<adminPass pass="Login Failed"/>
+	<adminPass pass="Login Failed"/> <!-- He he. -->
 	<proxy time="2" />
 	<portsForCrack val="255" />
 	<CustomConnectDisplayDaemon />
-	<firewall  solution="thePasswordIsLoginFailed" additionalTime="-1" />
+	<firewall  solution="thePasswordIsLoginFailedWithASpace" additionalTime="-1" />
 	<trace time="-1" />
 	<admin type="none" />
 	<ports>22,3659</ports>
 	<portRemap>22=65356</portRemap>
-	<file path="home" name="READ.txt">This server is public for anyone who needs/wants to hide their IP and should be secure enough for pretty much anything. Have fun with it, everyone.</file>
-	<file path="sys" name="RAMCLEAN.SYS">00000011 01010111This program cannot be run in non-DOS mode.#BINARY#</file>
+	<file path="home" name="READ.txt">This server is public for anyone who needs/wants to hide their IP and should be secure enough for pretty much anything.
+Have fun with it, everyone.
+
+-- empty</file>
+	<file path="sys" name="ramclean.SYS">0000001101010111This00000000program00000000must00000000be00000000run00000000in00000000DOS00000000mode00000000#BINARY#</file>
 	<encryptedFile path="bin" name="Clock.dec" extension=".exe" ip="@C#7298" header="Tick tock" pass="">
 &gt;Thinking this is an actual clock
 &gt;It's like you don't even tick tock
@@ -20,7 +23,7 @@
 			<Command>printf &quot;%s\n&quot; &quot;$IP&quot;
 #GIBSON_IP#		</Command>
 			<Command>cd /log</Command>
-			<Command>rm *</Command>
+			<Command>disconnect;sleep 2;rm *</Command>
 		</Commands>
 		<Data>
 			<Block>Loaded Extensions:
@@ -33,13 +36,14 @@ RAMCleaner @ 0x0F1CF2
 		<Images>
 		</Images>
 	</Memory>
-	<eosDevice name="Empty's ePhone 0x4e4f5045-S" id="emptyPhone" icon="ePhone" empty="true">
+	<eosDevice name="Empty's ePhone 0x46414b45-S" id="emptyPhone" icon="ePhone" empty="true">
 		<note>TODO
-- Check out the $IP
+- Unset $IP. If someone echos that out to terminal.... *shudder*
 - Buy cats
 - RELEASE THE FELINES
 		</note>
 		<mail username="empty@smtp.empty.com" pass="trustnothing" />
 		<file path="eos/system" name="eOSJailBreaker.sys">#BINARY#</file>
 	</eosDevice>
+	<positionNear target="emptyWeb" position="2" total="2" extraDistance="0.0" force="false" />
 </Computer>
