@@ -38,4 +38,4 @@ This depends on how you installed the Extension.
 	4. Run `git pull`
 	
 2. Downloading the Zip
-	1. See the **Install Instructions**, overwriting files.
+	1. Re-do the **Install Instructions**, overwriting files.
