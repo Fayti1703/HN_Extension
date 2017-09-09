@@ -2,7 +2,7 @@
 	<Name>Fayti1703's Something or another</Name> <!-- :len() <= 128 -->
 	<AllowSaves>true</AllowSaves>
   	<StartingVisibleNodes>jmail</StartingVisibleNodes>
-  	<StartingMission>Missions/blank.xml</StartingMission>
+	<StartingMission>Missions/Starting/Main.xml</StartingMission>
 	<StartingActions>Actions/Starting.xml</StartingActions>
 	<Description> --- Fayti1703's Extension ---
 Needs name, description and content.

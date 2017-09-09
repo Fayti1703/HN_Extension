@@ -13,7 +13,7 @@
 Have fun with it, everyone.
 
 -- empty</file>
-	<file path="sys" name="ramclean.SYS">0000001101010111This00000000program00000000must00000000be00000000run00000000in00000000DOS00000000mode00000000#BINARY#</file>
+	<file path="sys" name="ramclean.SYS">0000001101010111This0program0must0be0run0in0DOS0mode0#BINARY##BINARYSMALL#</file>
 	<encryptedFile path="bin" name="Clock.dec" extension=".exe" ip="@C#7298" header="Tick tock" pass="">
 &gt;Thinking this is an actual clock
 &gt;It's like you don't even tick tock

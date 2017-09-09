@@ -2,7 +2,7 @@
 	<account username="#PLAYERNAME#" password="reptilious" type="mail" />
 	<account username="Fayti1703" password="unicode-table.com" type="mail" />
 	<account username="empty" password="empty" type="mail" />
-	<mailServer name="N2" generateJunk="true">
+	<mailServer name="n2" generateJunk="true">
 		<email recipient="empty" sender="Management" subject="Re: Closing">
 We are sorry to hear that you are closing your account on our mail server.
 

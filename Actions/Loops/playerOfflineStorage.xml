@@ -1,6 +1,6 @@
 <ConditionalActions>
 	<OnDisconnect target="playerOfflineStorage">
 		<HideNode TargetComp="playerOfflineStorage" />
-		<AddConditionalActions Filepath="Actions/Loops/playerOfflineStorage.xml" Delay="0.25" DelayHost="true"/>
+		<AddConditionalActions Filepath="Actions/Loops/playerOfflineStorage.xml" />
 	</OnDisconnect>
 </ConditionalActions>

@@ -1,0 +1,9 @@
+<ConditionalActions>
+	<OnConnect target="mettShare">
+		<RunFunction FunctionName="removeFlags:noConnectTo-mettShare" />
+	</OnConnect>
+	<OnDisconnect>
+		<RunFunction FunctionName="addFlags:noConnectTo-mettShare" />
+		<AddConditionalActions Filepath="Actions/Loops/mettShare.xml" />
+	</OnDisconnect>
+</ConditionalActions>
