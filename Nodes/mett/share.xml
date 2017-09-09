@@ -1,11 +1,11 @@
-<Computer id="mettShare" name="/dev/mett&apos;s Sharedrive" security="1" allowsDefaultBootModule="false">
+<Computer id="mettShare" name="/dev/mett&apos;s Sharedrive" security="1" allowsDefaultBootModule="false" type="empty">
 <!--	This is mett's sharedrive, where he puts stuff he wants to have access across all of his machines on.
 	Or just things he wants to transfer from one machine to another. -->
 	<ports>21</ports>
 <!--	<portsForCrack val="1"/>-->
 	<!-- /home -->
-	<file path="home" name="CompanyPlans.docx">#BINARY##BINARY#</file>
-	<file path="home" name="ExeManual.pdf">#BINARY##BINARY#</file>
+	<file path="home" name="CompanyPlans.docx">#BINARY#</file>
+	<file path="home" name="ExeManual.pdf">%PDF-1.4#BINARY#</file>
 	<!-- /bin -->
 	<file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
 	<file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>

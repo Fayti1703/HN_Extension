@@ -1,9 +1,0 @@
-<ConditionalActions>
-	<OnConnect target="someServer" needsMissionDone="false" requiredFlags="">
-<!--		<LaunchHackScript Filepath="HackScripts/random" DelayHost="true" Delay="2" SourceComp="emptyRelay" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>-->
-<!--		 -ON RELEASE- UNCOMMENT ABOVE -->
-	</OnConnect>
-	<OnDisconnect target="someServer">
-		<AddConditionalActions Filepath="Actions/randomActions.xml" DelayHost="true" Delay="1"/>
-	</OnDisconnect>
-</ConditionalActions>

@@ -37,27 +37,31 @@ writel_silent Sorry about this. $#%#$
 delay 5 $#%#$
 writel_silent I'm part of a group that was investigating some things... $#%#$
 delay 6 $#%#$
-writel_silent That's why we put up a backtracer for any connection to empty's relay, $#%#$
+writel_silent That's why we put up a silent tracer for any connection to empty's relay, $#%#$
 delay 4 $#%#$
 writel_silent and why I just took a peek through your files. $#%#$
 delay 2.5 $#%#$
 writel_silent So... yeah. Sorry. $#%#$
 delay 3 $#%#$
-writel_silent I've removed the bot now, we're done. $#%#$
+writel_silent I've removed the tracker now, we're done. $#%#$
 delay 4.5 $#%#$
-writel_silent I don't mean to, y'know, harm anyone new to this field or anything.$#%#$
+writel_silent We don't mean to hurt any... "bystanders", y'know?$#%#$
 delay 4.5 $#%#$
-writel_silent So. Yeah. I can give you a pointer though. $#%#$
-delay 7.5 $#%#$
+writel_silent And uh... you seem to be kind of new to this. According to your files, I mean. $#%#$
+delay 4.5 $#%#$
+writel_silent As much as I'd like to stick around and teach you the ropes, I have to get going.$#%#$
+delay 3.5 $#%#$
+writel_silent I can give you a pointer though. $#%#$
+delay 4.5 $#%#$
 writel_silent $#%#$
-writel Here. 356.576.888.259. Knock yourself out.$#%#$
-delay 6 $#%#$
+writel Here. 41.130.144.140. Knock yourself out.$#%#$
+delay 3 $#%#$
 writel_silent Also, take this address here: 25.68.9.73 $#%#$
 delay 3.5 $#%#$
 writel_silent I'll write them to a file, hold on. $#%#$
-delay 5 $#%#$
+delay 2.5 $#%#$
 makeFile home NetEduArchives.txt NetEducation Archives: 25.68.9.73 $#%#$
-delay 5 $#%#$
+delay 2.5 $#%#$
 makeFile home BeginServer.txt Start here: 356.576.888.259 $#%#$
 delay 1 $#%#$
 writel_silent There. $#%#$

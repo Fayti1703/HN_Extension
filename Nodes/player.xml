@@ -1,3 +1,30 @@
 <Computer id="playerComp" name="#PLAYERNAME#'s Computer" type="empty" security="5">
+	<file path="home" name="OfflineStorage.txt">
+Hey - I've set up and configured a offline storage server for ya.
+
+You can cycle it for uplink by running a scan on your computer -
+the driver'll intercept that, send a command to the server to
+permit connections from the internet and open a tunnel to it.
+The server'll cut the tunnel once you end your SSH session on
+the server.
+
+Basically, a bunch of technical stuff, but tl;dr:
+
+- Scan your computer to get a connection to the server.
+- Log in.
+- Do your stuff.
+- Disconnect.
+
+Don't worry about the security of it - it's pretty tight.
+That is, unless you keep the tunnel from your computer up...
+
+
+Password for the admin access is the annoying sound of a particular office item - you know the one I mean.
+
+PS: You'll need to add a "-root" to that... setup issue.
+
+DESTROY THIS FILE ONCE READ - DO NOT KEEP IT LYING AROUND ON YOUR COMPUTER.
+SERIOUSLY. SECURTIY ISSUE.
+</file>
 	<dlink target="playerOfflineStorage" />
 </Computer>

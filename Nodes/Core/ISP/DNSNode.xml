@@ -1,3 +1,16 @@
-<Computer id="ispBackend" security="0" name="N2 Network Management">
+<Computer id="ispBackend" security="2" name="n2 Networking Managment" allowsDefaultBootModule="true">
+	<file path="home" name="ISP_About_Message.txt">
+This server is an routing and management system
+designed to allow for easy setup and admimistration.
+To use the managment system, first log in to an
+administrator account for this machine, then
+search for the IP address in question.
+The rest of the system should be self-explanitory.
+
+If this program has technical issues,
+contact customer support at
+support@n2online.com
+</file>
 	<ispSystem />
+	<positionNear target="ispComp" position="1" total="4" extraDistance="0.0" />
 <Computer/>

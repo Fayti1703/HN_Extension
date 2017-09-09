@@ -1,0 +1,6 @@
+<Computer id="ispPublic" security="0" name="www.n2online.com">
+	<proxy time="0" />
+	<dlink target="ispComp" />
+	<addWebServer name="n2 | Mobile Network, Mobile Rate, Top-ePhones &amp; ..." url="Web/todo.html">
+	<positionNear target="ispComp" position="1" total="4" extraDistance="0.0" />
+<Computer/>

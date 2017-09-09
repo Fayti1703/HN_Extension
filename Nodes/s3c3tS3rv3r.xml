@@ -1,41 +1,40 @@
-<Computer id="debug" name="Very well hidden secret server for secrets and all"
- ip="1337.101.123.1703"
- type="empty"
- security="4">
+<Computer id="debug" name="Debugging Server" ip="1337.101.123.1703" type="empty" security="4">
 	<portsForCrack val="0"/>
-	<firewall solution="THISBEFORETHELASTMILLENIUM" additionalTime="1000.0"/>
-	<!-- Yes. -->
+	<firewall
+		solution="&#x54;&#x68;&#x69;&#x73;&#x42;&#x65;&#x66;&#x6F;&#x72;&#x65;&#x54;&#x68;&#x65;&#x4C;&#x61;&#x73;&#x74;&#x4D;&#x69;&#x6C;&#x6C;&#x65;&#x6E;&#x69;&#x75;&#x6D;&#x3B;"
+		additionalTime="1000.0"/>
+	<!--
+	Yes, this is an escaped solution and an un-analyzable firewall.
+	You aren't supposed to be here, cheater.
+	-->
 	<trace time="-1"/>
-	<admin type="fast" isSuper="true"/>
-	<ports>211, 22, 80, 25, 21, 1433, 104, 6881, 443, 192, 554, 9418, 3724, 3659</ports> 
-	<!-- <positionNear target="emptyRelay" position="6" total="8" extradistance="0"/> -->
-	<!-- TODO: Add ALL PortCrushers here, even those you're not supposed to get. Someone will become frustrated enough to look in here and try to grab em. -->
-	<!-- Or, you know, maybe not. I'll have to think of something-->
-	<!-- IDEA: THEMEZ MEMEZ -->
+	<admin type="none" isSuper="false"/>
+	<ports>211, 22, 80, 25, 21, 1433, 104, 6881, 443, 192, 554, 9418, 3724, 3659</ports>
+	<positionNear target="emptyRelay" position="6" total="8" extradistance="0"/>
 	<!-- /home -->
-	<file path="home" name="SECRET_COMMANDS">
-	
+	<file path="home" name="Secret_Commands.txt">
 save!(SJN!*SNL8vAewew57WewJdwl89(*4;;;&amp;!)@&amp;(ak'^&amp;#@J3KH@!* - Saves session
 
-	
 FirstTimeInitdswhupwnemfdsiuoewnmdsmffdjsklanfeebfjkalnbmsdakj - Causes init
 	</file>
 	<!-- /bin -->
 	<file path="bin" name="TraceMeDaddy.exe">#SECURITYTRACER_PROGRAM#</file>
 	<file path="bin" name="ePhoneScanner.exe">#EOS_SCANNER_EXE#</file>
 	<file path="bin" name="ThemeChange.exe">#THEMECHANGER_EXE#</file>
-	<file path="bin" name="BloodMusic.exe">#DLC_MUSIC_EXE#</file>
-	<!-- Memory -->
+	<file path="bin" name="BloodMusic.exe">#DLC_MUSIC_EXE#</file> <!-- This one's an S.L.A.I. reference -->
+	<!-- /bin/Memory -->
 	<file path="bin/Memory" name="Generator.exe">#MEM_DUMP_GENERATOR#</file>
 	<file path="bin/Memory" name="Analyzer.exe">#MEM_FORENSICS_EXE#</file>
-	<!-- DEC -->
+	<!-- /bin/DEC -->
 	<file path="bin/DEC" name="Head.exe">#DECHEAD_PROGRAM#</file>
 	<file path="bin/DEC" name="Cypher.exe">#DECYPHER_PROGRAM#</file>
-	<!-- ports -->
+	<!-- /bin/ports -->
 	<file path="bin/ports" name="todo">SOMETHING HERE PLOX</file>
 	<!-- /sys -->
-	<customthemefile path="sys" name="x-server.sys" themePath="Themes/CoelTheme.xml" />
-	<LogoDaemon TextColor="240,29,29">
-Debugging in process...
-	</LogoDaemon>
+	<!--<file path="sys"></file> TODO: Remember what this was going to be-->
+	<file path="sys" name="x-server.sys">#BASE_THEME#</file>
+	<!-- /theme -->
+	<customthemefile path="theme" name="dino.sys" themePath="Themes/CoelTheme.xml" />
+	<!-- Daemons -->
+	<CustomConnectDisplayDaemon/>
 </Computer>

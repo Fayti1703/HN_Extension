@@ -1,4 +1,6 @@
-<Computer id="ispComp" security="0" name="N2 Gateway Node">
+<Computer id="ispComp" security="0" name="n2 Internal Gateway">
 	<proxy time="0" />
+	<dlink target="ispPublic" />
 	<dlink target="ispBackend" />
+	<dlink target="jmail" />
 <Computer/>

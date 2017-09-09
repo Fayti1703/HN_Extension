@@ -1,0 +1,31 @@
+<mission id="startingOfflineReminder" activeCheck="true">
+	<goals>
+	</goals>
+	<nextMission IsSilent="false">NONE</nextMission>
+	<email>
+		<sender>[ANONYMOUS]</sender>
+		<subject>Continue</subject>
+		<body>
+Alright. That server should be fine.
+
+Don't worry - I didn't remember the password.
+
+And besides - the connection only gets established
+when you yourself scan your node - I've worked with
+that type of system myself before.
+
+So, I'd use it as a backup system - *some* people might
+want to break into your system, delete all your files
+and brick it. This way you'll have your executables, themes
+and system configuration files backed up.
+
+Well, you should be clear to do pretty much anything now.
+Maybe find some hacking group and do some contracts?
+
+--[SENDER INFORMATION REMOVED]
+</body>
+		<attachments>
+			<link comp="">
+		</attachments>
+	</email>
+</mission>

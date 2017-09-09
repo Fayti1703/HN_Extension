@@ -1,4 +1,0 @@
-<Computer id="ispComp" security="0" name="N2">
-	<proxy time="0" />
-	<dlink target="ispBackend" />
-<Computer/>

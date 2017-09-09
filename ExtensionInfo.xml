@@ -2,8 +2,8 @@
 	<Name>Fayti1703's Something or another</Name> <!-- :len() <= 128 -->
 	<AllowSaves>true</AllowSaves>
   	<StartingVisibleNodes>jmail</StartingVisibleNodes>
-  	<StartingMission>Missions/blank.xml</StartingMission>
-	<StartingActions>Actions/Starting/Main.xml</StartingActions>
+  	<StartingMission>NONE</StartingMission>
+	<StartingActions>Actions/Starting.xml</StartingActions>
 	<Description> --- Fayti1703's Extension ---
 Needs name, description and content.
 Report issues on github.com/Fayti1703/HN_Extension.</Description>
@@ -11,14 +11,14 @@ Report issues on github.com/Fayti1703/HN_Extension.</Description>
 	<StartsWithTutorial>False</StartsWithTutorial> <!-- Why does this even exist? -->
 	<HasIntroStartup>true</HasIntroStartup>
 	<StartingTheme>HacknetBlue</StartingTheme>
-<!--	<StartingTheme>TerminalOnlyBlack</StartingTheme>-->
 	<!-- 
 	Base Themes: TerminalOnlyBlack, HacknetBlue, HacknetTeal, HacknetYellow, HackerGreen, HacknetWhite, HacknetPurple, HacknetMint
-	--><!--
+	-->
+	<!--
 	Music from these places playable without file paths:
-	HN_PATH/Content/Music
-	HN_PATH/Content/DLC/Music -->
-	<IntroStartupSong>The_Quickening</IntroStartupSong>
+	$HN_PATH/Content/Music
+	$HN_PATH/Content/DLC/Music -->
+	<IntroStartupSong>Revolve</IntroStartupSong>
 	<!-- Sequencer. For later. May need. --><!--
 	<SequencerTargetID>advExamplePC</SequencerTargetID>
 	<SequencerSpinUpTime>10.5</SequencerSpinUpTime>

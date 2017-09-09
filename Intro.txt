@@ -1,7 +1,8 @@
 
 === SYSTEM INTIALIZE ===
 
-INITALIZE relay.empty.com AS FORWARD RELAY....          [FAIL]     
-SERVER REPORTED 403 ERROR
+[  OK  ] Started Initalize forward relay (relay.empty.com)
+[FAILED] Initalize forward relay (relay.empty.com):
+         SERVER REPORTED 403 ERROR
 
 === INITALIZE END ===

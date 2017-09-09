@@ -1,8 +1,8 @@
-<Computer id="jmail" name="Mail Server">
+<Computer id="jmail" name="mail.n2online.com">
 	<account username="#PLAYERNAME#" password="reptilious" type="mail" />
 	<account username="Fayti1703" password="unicode-table.com" type="mail" />
 	<account username="empty" password="empty" type="mail" />
-	<mailServer name="Mail" generateJunk="true">
+	<mailServer name="N2" generateJunk="true">
 		<email recipient="empty" sender="Management" subject="Re: Closing">
 We are sorry to hear that you are closing your account on our mail server.
 
@@ -11,4 +11,5 @@ and will delete the rest of your user information in the near future.
 <!-- TODO: Add some ending stuff here -->
 		</email>
 	</mailServer>
+	<positionNear target="ispComp" position="1" total="4" extraDistance="0.0" />
 </Computer>

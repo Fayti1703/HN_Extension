@@ -1,0 +1,24 @@
+<mission id="startingOfflineReminder" activeCheck="false">
+	<goals>
+		<goal type="filedeletion" target="playerComp" file="OfflineStorage.txt" path="home" />
+	</goals>
+	<nextMission IsSilent="false">Missions/Starting/End.xml</nextMission>
+	<email>
+		<sender>[ANONYMOUS]</sender>
+		<subject>Reminder: Offline Storage</subject>
+		<body>
+Hey, #PLAYERNAME#.
+Remember me? The guy who set up a tracer on empty's relay?
+
+This is just to remind you to check out a file in your home folder, namely
+one called "OfflineStorage.txt".
+
+This is not a threat - just a friendly reminder for your own sake.
+
+Reply once you're done.
+
+--[SENDER INFORMATION REMOVED]
+</body>
+		<attachments></attachments>
+	</email>
+</mission>
