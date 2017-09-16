@@ -25,7 +25,7 @@ There are ways to do this.
 	1. Click `Clone or Download`
 	2. Click `Download ZIP`
 	3. Save the file
-	4. Unpack the folder inside it into your Hacknet/Extensions
+	4. Unpack the folder inside it into your Hacknet/Extensions folder
 	
 ## Updating
 
