@@ -12,7 +12,7 @@ Port#: 211		  - Transfer
 Port#: 21		       - SSH : OPEN   -       #SSH_CRACK#
 Port#: 80	    - HTTP WebServer : OPEN   -       #WEB_CRACK#
 Port#: 25	   - SMTP MailServer : OPEN   -      #SMTP_CRACK#
-Port#: 21		- FTP Server : OPEN   -   #FTP_CRACK# / #FTP_FAST_EXE#
+Port#: 21		- FTP Server : OPEN   -       #FTP_CRACK# / #FTP_FAST_EXE#
 Port#: 1433		- SQL Server : OPEN   -       #SQL_CRACK#
 Port#: 104	  - Medical Services : OPEN   - #MEDICAL_PROGRAM#
 Port#: 6881		- BitTorrent : OPEN   -     #TORRENT_EXE#
