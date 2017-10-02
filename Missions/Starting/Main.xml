@@ -1,8 +1,9 @@
 <mission id="startingMain" activeCheck="true">
 	<goals>
 		<goal type="hasflag" target="noConnectTo-mettShare" />
-		<goal type="filedownload" target="mettShare" file="SMTPOverflow.exe" path="bin" />
+		<goal type="filedownload" target="mettShare" file="SMTPOverflow.exe" path="home/crack" />
 	</goals>
+	<missionStart>loadConditionalActions:Actions/Starting.xml</missionStart>
 	<nextMission IsSilent="true">Missions/Starting/offlineReminder.xml</nextMission>
 	<!-- public struct noEmail -->
 	<email><sender></sender><subject></subject><body></body><attachments></attachments></email>

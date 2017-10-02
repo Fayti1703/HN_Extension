@@ -6,18 +6,22 @@
 		<AddConditionalActions Filepath="Actions/Loops/playerOfflineStorage.xml" />
 		<AddConditionalActions Filepath="Actions/Loops/mettShare.xml" />
 	<!-- 	<AddConditionalActions Filepath="Actions/randomActions.xml" />-->
+		<!-- Remove FOLDER_CREATORs -->
+		<DeleteFile TargetComp="playerComp" FilePath="home/stash" FileName="FOLDER_CREATOR" />
+		<DeleteFile TargetComp="playerComp" FilePath="home/misc"  FileName="FOLDER_CREATOR" />
+		<DeleteFile TargetComp="devShadow"  FilePath="home/files" FileName="FOLDER_CREATOR" />
 		<!-- Lock and load -->
-		<SetLock DelayHost="true" Delay="15"     Module="terminal" IsLocked="true"  IsHidden="false"	/>
-		<SetLock DelayHost="true" Delay="15.25"  Module="netmap"   IsLocked="true"  IsHidden="false"	/>
+		<SetLock DelayHost="true" Delay=" 3"     Module="terminal" IsLocked="true"  IsHidden="false"	/>
+		<SetLock DelayHost="true" Delay=" 3.25"  Module="netmap"   IsLocked="true"  IsHidden="false"	/>
 		<!-- Apparently you can click buttons through a ram lock. Bullshit. -->
-		<SetLock DelayHost="true" Delay="15.5"   Module="ram"      IsLocked="false" IsHidden="true" 	/>
-		<SetLock DelayHost="true" Delay="15.75"  Module="display"  IsLocked="false" IsHidden="true" 	/>
-		<LaunchHackScript Filepath="HackScripts/StartHack" Delay="15"
+		<SetLock DelayHost="true" Delay=" 3.5"   Module="ram"      IsLocked="false" IsHidden="true" 	/>
+		<SetLock DelayHost="true" Delay=" 3.75"  Module="display"  IsLocked="false" IsHidden="true" 	/>
+		<LaunchHackScript Filepath="HackScripts/StartHack" Delay="3"
 			TargetComp="playerComp" SourceComp="emptyRelay" DelayHost="true" />
 		<!-- Unload and unlock -->
-		<SetLock DelayHost="true" Delay="105"    Module="terminal" IsLocked="false" IsHidden="false"	/>
-		<SetLock DelayHost="true" Delay="105.25" Module="netmap"   IsLocked="false" IsHidden="false"	/>
-		<SetLock DelayHost="true" Delay="105.50" Module="ram"      IsLocked="false" IsHidden="false"	/>
-		<SetLock DelayHost="true" Delay="105.75" Module="display"  IsLocked="false" IsHidden="false"	/>
+		<SetLock DelayHost="true" Delay="93"    Module="terminal" IsLocked="false" IsHidden="false"	/>
+		<SetLock DelayHost="true" Delay="93.25" Module="netmap"   IsLocked="false" IsHidden="false"	/>
+		<SetLock DelayHost="true" Delay="93.50" Module="ram"      IsLocked="false" IsHidden="false"	/>
+		<SetLock DelayHost="true" Delay="93.75" Module="display"  IsLocked="false" IsHidden="false"	/>
 	</Instantly>
 </ConditionalActions>

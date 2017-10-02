@@ -4,13 +4,34 @@
 	<ports>21</ports>
 <!--	<portsForCrack val="1"/>-->
 	<!-- /home -->
-	<file path="home" name="CompanyPlans.docx">#BINARY#</file>
+	<file path="home" name="Note.txt"></file>
 	<file path="home" name="ExeManual.pdf">%PDF-1.4#BINARY#</file>
-	<!-- /bin -->
-	<file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
-	<file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+	<file path="home" name="Readme.txt">
+
+</file>
+	<!-- /home/crack -->
+	<file path="home/crack" name="FTPBounce.exe">#FTP_CRACK#</file>
+	<file path="home/crack" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
 	<!-- mett is not aware that this is a tracer. Neither is the player. -->
-	<file path="bin" name="SSHCrack.exe">#SECURITYTRACER_PROGRAM#</file>
+	<file path="home/crack" name="SSHCrack.exe">#SECURITYTRACER_PROGRAM#</file>
+	<!-- /home/pub -->
+	<file path="home/pub" name="Usage.txt">
+	This folder is for public files you want to share with people.
+	The password for the public account is 
+</file>
+	<!-- /home/private -->
+	<file path="home/private" name="BuisnessPlans.docx">#BINARY#</file>
 	<!-- /sys -->
 	<file path="sys" name="x-server.sys">#BASE_THEME#</file>
+	<file path="sys" name="account-jailer.sys">#BINARY#</file>
+	<file path="sys" name="account-jailer.ini">
+[RootDirectories]
+%admin=/
+%terminal=/
+%user=/home/
+public=/home/pub
+[Groups]
+admin=admin, Beuro_of_Investigation_on_a_Federal_level
+user=mett
+</file>
 </Computer>

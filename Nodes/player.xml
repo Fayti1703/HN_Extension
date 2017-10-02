@@ -1,12 +1,14 @@
 <Computer id="playerComp" name="#PLAYERNAME#'s Computer" type="empty" security="5">
+	<file path="home/stash" name="FOLDER_CREATOR"></file>
+	<file path="home/misc" name="FOLDER_CREATOR"></file>
 	<file path="home" name="OfflineStorage.txt">
 Hey - I've set up and configured a offline storage server for ya.
 
-You can cycle it for uplink by running a scan on your computer -
-the driver'll intercept that, send a command to the server to
-permit connections from the internet and open a tunnel to it.
-The server'll cut the tunnel once you end your SSH session on
-the server.
+You can cycle it for uplink by running a scan on your computer - the
+driver'll intercept that, send a command to the server to permit
+connections from the internet and open a tunnel to it. The server'll
+cut the tunnel once you end your SSH session on it.
+Similarly, if you scan the local IP to it, it also opens that tunnel.
 
 Basically, a bunch of technical stuff, but tl;dr:
 
@@ -16,15 +18,16 @@ Basically, a bunch of technical stuff, but tl;dr:
 - Disconnect.
 
 Don't worry about the security of it - it's pretty tight.
-That is, unless you keep the tunnel from your computer up...
 
-
-Password for the admin access is the annoying sound of a particular office item - you know the one I mean.
+Password for the admin access is the annoying sound of a particular
+office item - you should know the one I mean.
 
 PS: You'll need to add a "-root" to that... setup issue.
 
 DESTROY THIS FILE ONCE READ - DO NOT KEEP IT LYING AROUND ON YOUR COMPUTER.
-SERIOUSLY. SECURTIY ISSUE.
-</file>
+SERIOUSLY. SECURITY ISSUE.</file>
+	<file path="NotesReopener.bat">true
+::This file re-opens the notes on every bootup.
+::To disable, simply rename or delete this file.</file>
 	<dlink target="playerOfflineStorage" />
 </Computer>

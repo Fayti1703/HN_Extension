@@ -1,0 +1,15 @@
+<Computer id="devShadow" name="/dev/shadow" security="4" ip="real.world.root.dev.shadow">
+	<ports>211, 21, 22</ports>
+	<portsForCrack val="8000" />
+	<adminPass pass="&#x6F;&#x6E;&#x6C;&#x79;&#x52;&#x6F;&#x6F;&#x74;&#x4D;&#x61;&#x79;&#x41;&#x63;&#x63;&#x65;&#x73;&#x73;&#x54;&#x68;&#x69;&#x73;&#x46;&#x69;&#x6C;&#x65;" />
+	<CustomConnectDisplayDaemon />
+	<file path="home" name="ReadMe.txt">
+This server is for storing files to be copied to other nodes when
+required by Actions or Missions. The fact that you can read this message
+means that you're cheating. Stop it, play the Extension properly.
+	</file>
+	<file path="home" name="files.lst">
+-- Server Empty --
+	</file>
+	<file path="home/files" name="FOLDER_CREATOR"></file>
+</Computer>

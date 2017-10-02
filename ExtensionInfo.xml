@@ -3,7 +3,6 @@
 	<AllowSaves>true</AllowSaves>
   	<StartingVisibleNodes>jmail</StartingVisibleNodes>
 	<StartingMission>Missions/Starting/Main.xml</StartingMission>
-	<StartingActions>Actions/Starting.xml</StartingActions>
 	<Description> --- Fayti1703's Extension ---
 Needs name, description and content.
 Report issues on github.com/Fayti1703/HN_Extension.</Description>
@@ -18,7 +17,7 @@ Report issues on github.com/Fayti1703/HN_Extension.</Description>
 	Music from these places playable without file paths:
 	$HN_PATH/Content/Music
 	$HN_PATH/Content/DLC/Music -->
-	<IntroStartupSong>Revolve</IntroStartupSong>
+	<IntroStartupSong>Slow_Motion</IntroStartupSong>
 	<!-- Sequencer. For later. May need. --><!--
 	<SequencerTargetID>advExamplePC</SequencerTargetID>
 	<SequencerSpinUpTime>10.5</SequencerSpinUpTime>

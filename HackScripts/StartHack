@@ -14,17 +14,7 @@ write .$#%#$
 writel $#%#$
 connect $#%#$
 delay 1 $#%#$
-openPort 21 $#%#$
-writel ____________________________$#%#$
-writel$#%#$
-writel WARNING - FTP PORT CRACKED  $#%#$
-writel ____________________________$#%#$
-delay 10 $#%#$
-openPort 22 $#%#$
-writel ____________________________$#%#$
-writel$#%#$
-writel WARNING - SSH PORT CRACKED  $#%#$
-writel ____________________________$#%#$
+writel [OS] WARNING: FOREIGN ACCESS ON FILE SYSTEM$#%#$
 writel $#%#$
 delay 3 $#%#$
 clearTerminal $#%#$
