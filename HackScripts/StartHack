@@ -15,6 +15,7 @@ writel $#%#$
 connect $#%#$
 delay 1 $#%#$
 writel [OS] WARNING: FOREIGN ACCESS ON FILE SYSTEM$#%#$
+delay 10 $#%#$
 writel $#%#$
 delay 3 $#%#$
 clearTerminal $#%#$
@@ -25,13 +26,13 @@ writel_silent Sorry about this. $#%#$
 delay 5 $#%#$
 writel_silent I'm part of a group that was investigating some things... $#%#$
 delay 6 $#%#$
-writel_silent That's why we put up a silent tracer for any connection to empty's relay, $#%#$
+writel_silent That's why we put up an active trace for any connection to empty's relay, $#%#$
 delay 4 $#%#$
 writel_silent and why I just took a peek through your files. $#%#$
 delay 2.5 $#%#$
 writel_silent So... yeah. Sorry. $#%#$
 delay 3 $#%#$
-writel_silent I've removed the tracker now, we're done. $#%#$
+writel_silent I've removed the tracer now, we're done. $#%#$
 delay 4.5 $#%#$
 writel_silent We don't mean to hurt any... "bystanders", y'know?$#%#$
 delay 4.5 $#%#$

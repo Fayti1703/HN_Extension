@@ -31,7 +31,7 @@
 %user=/home/
 public=/home/pub
 [Groups]
-admin=admin, Beuro_of_Investigation_on_a_Federal_level
+admin=admin, BoIonaFl
 user=mett
 </file>
 </Computer>
